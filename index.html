@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uians</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+
+     <!-- icons -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- stye -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Source+Sans+Pro:wght@600;700&display=swap"
+    rel="stylesheet">
+    
+</head>
+<body>
+     <!-- header -->
+     <header id="header"class="lr-pad">
+        <nav>
+            <div class="logo"><h1>Uians</h1></div>
+            <div class="navbar"> 
+                <ul id="openMenu" onclick="closeMenu()">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#why-container">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#feature">Feature</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                    <li class="quote-btn"><a href=""></ion-icon>Get a Quote</a></li>
+                    <ion-icon id="close" name="close" onclick="closeMenu()"></ion-icon>
+                </ul>
+                
+            </div>
+            <ion-icon id="open" name="menu" onclick="openMenu()"></ion-icon>
+        </nav>
+         <!-- -----header text-------- -->
+         <div class="header-text">
+            <div class="left-col">
+                <p class="sub-title">We Are Product Designer From UK</p>
+                <h1>We Design Interfaces <br>That Users Love</h1>
+                <p class="desc">Morbi sed lacus nec risus finibus feugiat et fermentum nibh. Pellentesque vitae ante at elit fringilla ac at purus.</p>
+                <a class="btn" href="">Learn More</a>
+            </div>
+            <div class="right-col">
+                <div class="right-img"><img src="assets/images/hero-banner.png" alt=""></div>
+            </div>
+         </div>
+
+     </header>
+
+     <!-- -------why section-------- -->
+     <div id="why-container" class="lr-pad">
+        <div class="why-left">
+            <div class="left-img"><img src="assets/images/about-banner.png" alt=""></div>
+        </div>
+        <div class="why-right">
+            <h1 class="head-title">Why Our Agency</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo corporis consequatur obcaecati nesciunt quas quo temporibus accusamus aspernatur, provident harum cumque! Officia exercitationem ipsam molestiae. Temporibus vel repudiandae reprehenderit aperiam.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores nihil impedit laborum quos eius obcaecati expedita iusto voluptates sapiente voluptatum!</p>
+            <div class="why-box">
+               <div class="box">
+                   <h1>9765</h1>
+                   <span>Satisfied Clients</span>
+               </div>
+               <div class="box">
+                   <h1>9765</h1>
+                   <span>Satisfied Clients</span>
+               </div>
+               <div class="box">
+                   <h1>9765</h1>
+                   <span>Satisfied Clients</span>
+               </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- -------our specialization-------- -->
+     <div id="services" class="lr-pad">
+        <h1 class="head-title">Our Specialization</h1>
+        <div class="service-list">
+            <div class="service-box">
+                  <img src="assets/images/service-banner-pattern.png" alt="">
+                  <ion-icon class="img-icon" name="telescope-outline"></ion-icon>
+                  <h2 class="sub-head">Strategy & Research</h2>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit sapiente iure asperiores explicabo ut saepe nulla dolores vero omnis.</p>
+                  <a href="">Read more</a>
+            </div>
+            <div class="service-box">
+                    <img src="assets/images/service-banner-pattern.png" alt="">
+                    <ion-icon class="img-icon" name="desktop-outline"></ion-icon>
+                    <h2 class="sub-head">Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit sapiente iure asperiores explicabo ut saepe nulla dolores vero omnis.</p>
+                    <a href="">Read more</a>
+            </div>
+            <div class="service-box">
+                <img src="assets/images/service-banner-pattern.png" alt="">
+                <ion-icon class="img-icon" name="globe-outline"></ion-icon>
+                <h2 class="sub-head">Web Solution</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore impedit sapiente iure asperiores explicabo ut saepe nulla dolores vero omnis.</p>
+                <a href="">Read more</a>
+            </div>
+        </div>
+     </div>
+
+     <!-- --------our feature-------- -->
+     <div id="feature" class="lr-pad">
+        <h1 class="head-title">Our Features</h1>
+        <div class="f-container">
+            <div class="left-box content-box">
+                <div class="f-box">
+                    <i class="fa-solid fa-globe"></i>
+                    <h3 class="h3">Idea & Analysis</h3>
+                    <p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+                </div>
+                <div class="f-box">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h3 class="h3">Development</h3>
+                    <p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+                </div>
+            </div>
+            <div class="mid-box content-box">
+                <div class="feature-img"><img src="assets/images/feautres-banner.png" alt="" loading="lazy"></div>
+            </div>
+            <div class="right-box content-box">
+                <div class="f-box">
+                    <i class="fa-solid fa-compass-drafting"></i>
+                    <h3 class="h3">Designing</h3>
+                    <p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+                </div>
+                <div class="f-box">
+                    <i class="fa-solid fa-rocket"></i>
+                    <h3 class="h3">Testing & Deploy</h3>
+                    <p>Praesent tincidunt congue est ut hendrerit. Pellentesque et eros sit amet ipsum venenatis.</p>
+                </div>
+            </div>
+        </div>
+     </div>
+
+     <!-- -------our blog & news------- -->
+
+     <div id="blog" class="lr-pad">
+        <h1 class="head-title">Our Blog & News</h1>
+        <div class="blog-container">
+            
+            <div class="blog-box">
+                <a href=""> 
+                    <img src="assets/images/blog-1.jpg" alt="">
+                    <h3 class="blog-title">Vestibulum massa arcu, consectetu pellentesque</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam mollitia consequuntur ab cum. Quisquam?</p>
+                    <div class="icon-box">
+                        <span><i class="fa-solid fa-calendar-day"></i> 16-08-2022</span>
+                        <span><i class="fa-solid fa-comment"></i>16</span>
+                        <span><i class="fa-solid fa-share"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="blog-box">
+                <a href=""> 
+                    <img src="assets/images/blog-2.jpg" alt="">
+                    <h3 class="blog-title">Vestibulum massa arcu, consectetu pellentesque</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam mollitia consequuntur ab cum. Quisquam?</p>
+                    <div class="icon-box">
+                        <span><i class="fa-solid fa-calendar-day"></i> 16-08-2022</span>
+                        <span><i class="fa-solid fa-comment"></i>16</span>
+                        <span><i class="fa-solid fa-share"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="blog-box">
+                <a href=""> 
+                    <img src="assets/images/blog-3.jpg" alt="">
+                    <h3 class="blog-title">Vestibulum massa arcu, consectetu pellentesque</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam mollitia consequuntur ab cum. Quisquam?</p>
+                    <div class="icon-box">
+                        <span><i class="fa-solid fa-calendar-day"></i> 16-08-2022</span>
+                        <span><i class="fa-solid fa-comment"></i>16</span>
+                        <span><i class="fa-solid fa-share"></i></span>
+                    </div>
+                </a>
+            </div>
+            <div class="blog-box">
+                <a href=""> 
+                    <img src="assets/images/blog-4.jpg" alt="">
+                    <h3 class="blog-title">Vestibulum massa arcu, consectetu pellentesque</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ipsam mollitia consequuntur ab cum. Quisquam?</p>
+                    <div class="icon-box">
+                        <span><i class="fa-solid fa-calendar-day"></i> 16-08-2022</span>
+                        <span><i class="fa-solid fa-comment"></i>16</span>
+                        <span><i class="fa-solid fa-share"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+     </div>
+
+     <!-- --------footer------- -->
+
+     <footer id="footer" >
+        <div class="footer-container lr-pad">
+            <div class="footer-item">
+                 <div class="footer-box">
+                    <h3 class="f-title">Uians</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ab molestias, dolorum odit vel a fuga rerum eum quia impedit!</p>
+                    <ul class="s-link">
+                        <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-box">
+                    <h3 class="f-title">Our Links</h3>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-box">
+                    <h3 class="f-title">Our Services</h3>
+                    <ul>
+                        <li><a href="">Strategy & Research</a></li>
+                        <li><a href="">Web Development</a></li>
+                        <li><a href="">Web Solution</a></li>
+                        <li><a href="">Digital Marketing</a></li>
+                        <li><a href="">App Design</a></li>
+                    </ul>
+                 </div>
+                 <div class="footer-box">
+                    <h3 class="f-title">Address</h3>
+                    
+                    <ul>
+                       <li><address>Kajipur Maghar Sant Kabir Nagar<br>UP, India</address></li> 
+                        <ul class="s-link">
+                            <li><a href=""><i class="fa-brands fa-github"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                        </ul>
+                    </ul>
+                 </div>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright &copy; Uians 2022-2023 Made by Waris</p>
+        </div>
+     </footer>
+
+    <!-- script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
